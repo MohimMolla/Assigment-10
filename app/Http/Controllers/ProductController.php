@@ -12,7 +12,9 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+       $products = Product::get();
+       return view('admin.product.all',get_defined_vars());
+       
     }
 
     /**
@@ -20,7 +22,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.product.ceate');
     }
 
     /**

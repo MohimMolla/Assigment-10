@@ -26,8 +26,8 @@
 
               
                {{-- Dynamic user from dashbord --}}
-               <x-app-layout>
-               </x-app-layout>
+               {{--<x-app-layout>
+               </x-app-layout>--}}
                {{-- Dynamic user from dashbord --}}
            </li>
            <!-- Nav Item - User Information -->
